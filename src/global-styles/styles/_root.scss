@@ -1,0 +1,48 @@
+/// Root Styles file
+/// Here we define all the root variables we need for our project.
+/// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
+
+:root {
+  --black: #000;
+  --white: #fff;
+
+  // Button colors
+  --color-button-static-primary: var(--white);
+  --color-button-static-secondary: var(--black);
+
+  --color-button-hover-primary: var(--color-button-static-primary);
+  --color-button-hover-secondary: #001aff;
+
+  --color-button-pressed-primary: #f1f5ff;
+  --color-button-pressed-secondary: var(--color-button-hover-secondary);
+
+  // Text colors
+  --color-text-primary: var(--black);
+  --color-text-secondary: #141414;
+
+  // Card colors
+  --color-card-0-primary: #e5efe2;
+  --color-card-0-secondary: #428a2f;
+
+  --color-card-1-primary: #e4e9f3;
+  --color-card-1-secondary: #3d63ac;
+
+  --color-card-2-primary: #f4f1e4;
+  --color-card-2-secondary: #b09e3d;
+
+  // Rounding
+  --border-rounding: 12px;
+
+  // Font sizes
+  --font-size-desktop-l: 32px;
+  --font-size-desktop-m: 16px;
+  --font-size-desktop-s: 12px;
+
+  --font-size-tablet-l: var(--font-size-desktop-l);
+  --font-size-tablet-m: var(--font-size-desktop-m);
+  --font-size-tablet-s: var(--font-size-desktop-s);
+
+  --font-size-mobile-l: 26px;
+  --font-size-mobile-m: 14px;
+  --font-size-mobile-s: var(--font-size-desktop-s);
+}
