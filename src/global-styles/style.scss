@@ -5,8 +5,11 @@
 @import "styles/_root.scss";
 @import "styles/_fonts.scss";
 
-body {
-  font-family: 'Raleway', sans-serif;
-  color: var(--color-text-primary);
+* {
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--color-text-primary);
+}

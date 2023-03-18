@@ -1,39 +1,13 @@
 /// Homepage Styles File
 /// Here we import all the Styles files we need for our Homepage.
 
+@import "_card.scss";
+@import "_button.scss";
+
 .wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  height: 100vh;
+  min-height: 100vh;
 }
-
-.card {
-    width: 368px;
-    height: 456px;
-  
-    &--0 {
-      background-color: var(--color-card-0-primary);
-    }
-
-    &--1 {
-        background-color: var(--color-card-1-primary);
-    }
-    &--2 {
-        background-color: var(--color-card-2-primary);
-    }
-
-    &__icon{
-        &--0 {
-            background-color: var(--color-card-0-secondary);
-        }
-        &--1 {
-            background-color: var(--color-card-1-secondary);
-        }
-        &--2 {
-            background-color: var(--color-card-2-secondary);
-        }
-    }
-  }
-
