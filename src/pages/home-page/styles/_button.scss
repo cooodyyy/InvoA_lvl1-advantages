@@ -1,5 +1,4 @@
 .button {
-  display: inline-block;
   cursor: pointer;
   font-size: var(--font-size-desktop-s);
   padding: 14px 19px 15px 24px;
@@ -7,19 +6,27 @@
   border: none;
   background-color: var(--color-button-static-primary);
   color: var(--color-button-static-secondary);
-
   width: 132px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    text-decoration: none;
+  }
 
   &:hover {
-    color: var(--color-button-hover-secondary);
+    a {
+      color: var(--color-button-hover-secondary);
+    }
   }
 
   &:active {
     background-color: var(--color-button-pressed-primary);
-    color: var(--color-button-pressed-secondary);
+
+    a {
+      color: var(--color-button-pressed-secondary);
+    }
   }
 }
