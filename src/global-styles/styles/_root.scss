@@ -7,17 +7,17 @@
   --white: #fff;
 
   // Button colors
-  --color-button-static-primary: var(--white);
-  --color-button-static-secondary: var(--black);
+  --color-button-static-primary: #fff;
+  --color-button-static-secondary: #000;
 
-  --color-button-hover-primary: var(--color-button-static-primary);
+  --color-button-hover-primary: #fff;
   --color-button-hover-secondary: #001aff;
 
   --color-button-pressed-primary: #f1f5ff;
-  --color-button-pressed-secondary: var(--color-button-hover-secondary);
+  --color-button-pressed-secondary: #001aff;
 
   // Text colors
-  --color-text-primary: var(--black);
+  --color-text-primary: #000;
   --color-text-secondary: #141414;
 
   // Card colors
@@ -38,11 +38,15 @@
   --font-size-desktop-m: 16px;
   --font-size-desktop-s: 12px;
 
-  --font-size-tablet-l: var(--font-size-desktop-l);
-  --font-size-tablet-m: var(--font-size-desktop-m);
-  --font-size-tablet-s: var(--font-size-desktop-s);
+  --font-size-tablet-l: 32px;
+  --font-size-tablet-m: 16px;
+  --font-size-tablet-s: 12px;
 
   --font-size-mobile-l: 26px;
   --font-size-mobile-m: 14px;
-  --font-size-mobile-s: var(--font-size-desktop-s);
+  --font-size-mobile-s: 12px;
+
+  // // Break points
+  // $tablet-view: 1023px;
+  // $mobile-view: 376px;
 }
